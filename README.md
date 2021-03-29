@@ -54,16 +54,13 @@ To good use and build this project, we should use everythings we have learned in
 - [ ] The app needs to render the HTTP and Network errors.
 
   - _acceptance criteria ..._
-  - 
+  
 ## Could-Haves
 
 > would be really cool ... if there's time
 
 - [ ] The user can select and fetch data from many endpoints at same time.
   - _acceptance criteria ..._
-- [ ] 
-  - _acceptance criteria ..._
-- [ ] 
-  - _acceptance criteria ..._
+
 
 
