@@ -5,12 +5,12 @@
 <br>
 
 ----------------------------------------------------------------
-# Project Description:
+## Project Description:
 This app shows the results of the most important football' competitions, standings, matches, teams...<br>
 This app fetched it data from API <a href="http://api.football-data.org/index" rel="nofollow">Football-Data.org</a>
 
 
-# About the project
+## About the project
 This project is for the final week of Using API's module. The project must be a SPA connected to an API!
 To good use and build this project, we should use everythings we have learned in previous HYF - modules:
  
@@ -20,7 +20,8 @@ To good use and build this project, we should use everythings we have learned in
 <a href="https://github.com/HackYourFuture/UsingAPIs" style="display: inline">Using-APIS</a><br>
 
 
-# Backlog
+## Backlog
+Description of Some requirements and features for this project: ...
 
 ## Must-Haves
 
