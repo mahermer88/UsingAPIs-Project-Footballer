@@ -5,7 +5,7 @@
 <br>
 
 ----------------------------------------------------------------
-## Project Description:
+## Project' Description:
 This app shows the results of the most important football' competitions, standings, matches, teams...<br>
 This app fetched it data from API <a href="http://api.football-data.org/index" rel="nofollow">Football-Data.org</a>
 
