@@ -54,7 +54,7 @@ The app at first fetches data from an endpoint called competitions, then it uses
 <img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-stand%5B1%5D.gif" width="700" height="350"/><br><br><br>
 
 
-
+# 
 ### - The app needs to use filter data methods if provided by the API.
 
 #### Competition matches:
@@ -64,7 +64,7 @@ The app uses a filter method provided by the API to show the matches' results de
 
 
 
-
+# 
 ### -  The app needs to render the HTTP and Network errors.
 
 #### Error handeling:
