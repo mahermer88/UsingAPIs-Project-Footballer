@@ -16,8 +16,7 @@ export function renderStanding(competitionName, standing) {
 
     const headCells = ['Pos', 'Club', 'P', 'W', 'D', 'L', 'Points', 'GF', 'GA', 'GD']
     const table = createTable(standingTableContainer, `standing-table`, headCells)
-   
-
+  
     for (const team of standing) {
       const standingInfo = [
         team.position,

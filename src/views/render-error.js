@@ -4,7 +4,7 @@ export function renderError(error) {
   M.toast({
     html: toastHTML,
     displayLength: 8000,
-    classes: 'rounded',
+    classes: "rounded",
     completeCallback: function () {
       if (confirm("refresh this page")) {
         location.reload();

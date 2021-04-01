@@ -7,7 +7,7 @@ export function renderSelectDays(currentMatchdayCode, currentMatchday) {
     const matchesDaysList = document.getElementById("matches-days");
     matchesDaysList.classList.remove('hide')
     if (!matchesDaysList.textContent) {
-      for (let i = 0; i <= currentMatchday; i++) {
+      for (let i = 1; i <= currentMatchday; i++) {
         createAndAppend("option", matchesDaysList, {
           text: `${i}`,
           value: `${currentMatchdayCode}`,

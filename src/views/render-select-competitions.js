@@ -17,7 +17,7 @@ export function renderCompetitions(availableCompetitions) {
     competitionsList.onchange = () => {
       competitionsList.value =
         competitionsList[competitionsList.selectedIndex].value;
-        renderCompetition(availableCompetitions[competitionsList.value]);
+      renderCompetition(availableCompetitions[competitionsList.value]);
     };
   } catch (error) {
     renderError(error);

@@ -5,16 +5,14 @@ export function createTable(container, label, headCells) {
         id: label,
         class: `striped highlight deep-orange-text text-darken-4`
     });
-
     const head = createAndAppend("tr", table);
     for (const cell of headCells) {
-        const headCell = createAndAppend("th", head, { text: cell, class: `center-align black-text`});
+        const headCell = createAndAppend("th", head, { text: cell, class: `center-align black-text` });
         headCell.style.border = `2px solid black`;
     }
     table.style.border = `2px solid black`;
     return table
 }
-
 
 
 export function addTableRow(container, rowCells) {
