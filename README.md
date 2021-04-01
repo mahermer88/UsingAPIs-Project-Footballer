@@ -8,8 +8,9 @@
 ## Project' Description:
 
 This app shows the results of the most important football' competitions, standings, matches, teams...<br>
-This app fetched it data from API <a href="http://api.football-data.org/index" rel="nofollow">Football-Data.org</a>
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-Demo%5B1%5D.gif"/><br>
+This app fetched it data from API <a href="http://api.football-data.org/index" rel="nofollow">Football-Data.org</a><br>
+
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-Demo%5B1%5D.gif" width="800" height="400"/><br>
 
 ----------------------------------------------------------------
 
@@ -36,9 +37,9 @@ Description of Some requirements and features for this project: ...
 
 ### Best competitions:
 The app shows a list of 12 free available competitions out of the API.
-User can select any one of them and will get a small table with some chosen competition details, such as name, country, last update...
+User can select any one of them and will get a small table with some chosen competition details, such as name, country, last update...<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-comp%5B1%5D.gif"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-comp%5B1%5D.gif" width="800" height="400"/><br>
 
 ----------------------------------------------------------------
 
@@ -50,24 +51,24 @@ User can select any one of them and will get a small table with some chosen comp
 - [ ] The app needs to render the HTTP and Network errors.
 
 ### Competition' standing: 
-The app uses a different endpoint called "standing" to show teams' results tables depending on chosen competition button.
+The app uses a different endpoint called "standing" to show teams' results tables depending on chosen competition button.<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-stand%5B1%5D.gif"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-stand%5B1%5D.gif" width="800" height="400"/><br>
 
 ----------------------------------------------------------------
 
 ### Competition matches:
 The app uses a filter method provided by the API to show the matches' results depending on the matchday's number and chosen competition. 
- Matchday's number list starts at 1 until a provided current matchday's.
+ Matchday's number list starts at 1 until a provided current matchday's.<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-match%5B1%5D.gif"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-match%5B1%5D.gif" width="800" height="400"/><br>
 
 ----------------------------------------------------------------
 
 ### Error handeling:
-The app will show this "toast" wherever it catches an error. The app shows the error' message and refresh button, or it will show an alert confirmation to refresh after few seconds.
+The app will show this "toast" wherever it catches an error. The app shows the error' message and refresh button, or it will show an alert confirmation to refresh after few seconds.<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-error%5B1%5D.gif"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-error%5B1%5D.gif" width="800" height="400"/><br>
 
 ----------------------------------------------------------------
  
