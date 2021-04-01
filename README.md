@@ -35,7 +35,7 @@ Description of Some requirements and features for this project: ...
 - [ ] The app needs to have loading/error handling for the interaction with the API.
 - [ ] The app needs some user interaction such that you need to grab different data from the API. So you cannot just grab everything from the API and store it locally.
 
-### Best competitions:
+#### Best competitions:
 The app shows a list of 12 free available competitions out of the API.
 User can select any one of them and will get a small table with some chosen competition details, such as name, country, last update...<br>
 
@@ -50,14 +50,14 @@ User can select any one of them and will get a small table with some chosen comp
 - [ ] The app needs to use filter data methods if provided by the API.
 - [ ] The app needs to render the HTTP and Network errors.
 
-### Competition' standing: 
+#### Competition' standing: 
 The app uses a different endpoint called "standing" to show teams' results tables depending on chosen competition button.<br>
 
 <img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-stand%5B1%5D.gif" width="700" height="350"/><br>
 
 ----------------------------------------------------------------
 
-### Competition matches:
+#### Competition matches:
 The app uses a filter method provided by the API to show the matches' results depending on the matchday's number and chosen competition. 
  Matchday's number list starts at 1 until a provided current matchday's.<br>
 
@@ -65,7 +65,7 @@ The app uses a filter method provided by the API to show the matches' results de
 
 ----------------------------------------------------------------
 
-### Error handeling:
+#### Error handeling:
 The app will show this "toast" wherever it catches an error. The app shows the error' message and refresh button, or it will show an alert confirmation to refresh after few seconds.<br>
 
 <img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-error%5B1%5D.gif" width="700" height="350"/><br>
