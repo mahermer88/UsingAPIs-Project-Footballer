@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>UsingAPIs-Project</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header class="scrollspy">
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper white">
+                <div class="container">
+                    <a href="index.html" class="brand-logo teal-text text-darken-4">Footballer Home</a>
+                    <a href="#mobile-menu" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons black-text">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#competitions" class="teal-text text-darken-4">Competitions</a>
+                        </li>
+                        <li>
+                            <a href="#standings" class="teal-text text-darken-3">Standings</a>
+                        </li>
+                        <li>
+                            <a href="#matches" class="teal-text text-darken-3">Matches</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="tool-tipped btn-floating btn-small teal darken-2 hoverable"
+                                data-tooltip="Home">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="tool-tipped btn-floating btn-small teal darken-2 hoverable"
+                                data-tooltip="Contact">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#aboutus" class="tool-tipped btn-floating btn-small teal darken-1 hoverable"
+                                data-tooltip="About us">
+                                <i class="fas fa-address-card"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="mobile-menu" class="sidenav grey lighten-2">
+                        <li><a href="#competitions">Competitions</a></li>
+                        <li><a href="#standings">Standings</a></li>
+                        <li><a href="#matches">Matches</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- background slider-->
+    <section class="slider scrollspy">
+        <ul class="slides">
+            <li>
+                <img src="media/back1.jpg" alt="background-image" class="responsive-img" />
+                <div class="caption center-align">
+                    <h2 class="yellow-text text-accent-2">Competitions</h2>
+                    <h4 class="yellow-text text-accent-2 hide-on-small-only">
+                        Best competitions in the world.
+                    </h4>
+                    <a href="#competitions" class="btn initial orange darken-4 waves-effect waves-light hoverable">
+                        Start Your Journey With Us
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="media/back2.jpg" alt="background-image" class="responsive-img" />
+                <div class="caption left-align">
+                    <h2 class="yellow-text text-accent-2">Standings</h2>
+                    <h4 class="yellow-text text-accent-2 hide-on-small-only">
+                        teams, positions, points
+                    </h4>
+                    <a href="#standings" class="btn initial orange darken-4 waves-effect waves-light hoverable">Take A
+                        Look</a>
+                </div>
+            </li>
+            <li>
+                <img src="media/back3.jfif" alt="background-image" class="responsive-img" />
+                <div class="caption right-align">
+                    <h2 class="yellow-text text-accent-2">Matches</h2>
+                    <h4 class="yellow-text text-accent-2 hide-on-small-only">
+                        All games day by day.
+                    </h4>
+                    <a href="#matches" class="btn initial orange darken-4 waves-effect waves-light hoverable">Recent
+                        Results</a>
+                </div>
+            </li>
+            <li>
+                <img src="media/back4.jpg" alt="background-image" class="responsive-img" />
+                <div class="caption center-align">
+                    <h2 class="yellow-text text-accent-2">Teams</h2>
+                    <h4 class="yellow-text text-accent-2hide-on-small-only">
+                        All squad and stuff..
+                    </h4>
+                    <a href="#teams" class="btn initial orange darken-4 waves-effect waves-light hoverable">More About
+                        Teams</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Competitions-->
+    <section id="competitions" class="scrollspy">
+        <div class="row">
+            <div class="col s12 l3 offset-l1 center-align">
+                <div class="row">
+                    <h4 class="deep-orange-text text-darken-4">Best Competitions</h4>
+                    <p class="center-align">
+                        Access to data of these leagues & cups is free. Forever.
+                    </p>
+                </div>
+                <div class="row">
+                    <a id="trigger-competitions" class="btn initial orange darken-4 waves-effect waves-light pulse"><i
+                            class="material-icons white-text right ">blur_circular</i>Choose</a>
+                    <select id="competitions-list" class="show list black-text hide"></select>
+                </div>
+            </div>
+            <div class="col s12 l6 offset-l1 center-align">
+                <img src="media/free-competitions.jpg" alt="best-competitions" class="responsive-img" />
+            </div>
+        </div>
+        <div class="row">
+            <div id="competition-table-container" class="col s12 l10 offset-l1"></div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container scrollspy">
+        <div class="parallax">
+            <img src="media/para.jpg" alt="parallax-image" class="responsive-img" />
+        </div>
+    </div>
+
+    <!-- Standings-->
+    <section id="standings" class="scrollspy">
+        <div class="row center-align">
+            <h2 class="center-align orange-text text-darken-4">Standings</h2>
+            <a id="trigger-standings" class="btn initial orange darken-4 waves-effect waves-light pulse"><i
+                    class="material-icons white-text right ">blur_circular</i>Choose</a>
+        </div>
+        <div class="row">
+            <div id="standings-buttons" class="col s12 l12"></div>
+        </div>
+        <div class="row">
+            <div id="standing-table-container" class="col s12 l10 offset-l1"></div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container scrollspy">
+        <div class="parallax">
+            <img src="media/para1.jpg" alt="parallax-image" class="responsive-img" />
+        </div>
+    </div>
+
+    <!-- Matches-->
+    <section id="matches" class="scrollspy">
+        <div class="row center-align">
+            <h2 class="center-align orange-text text-darken-4">Matches</h2>
+            <a id="trigger-matches" class="btn initial orange darken-4 waves-effect waves-light pulse"><i
+                    class="material-icons white-text right ">blur_circular</i>Choose</a>
+        </div>
+        <div class="row">
+            <div class="col s5 l2 offset-l1 ">
+                <div class="row">
+                    <select id="matches-list" class="show list black-text hide"></select>
+                </div>
+                <div class="row">
+                    <select id="matches-days" class="show list black-text hide"></select>
+                </div>
+            </div>
+            <div id="match-table-container" class="col s12 l6">
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container scrollspy">
+        <div class="parallax">
+            <img src="media/para2.jpg" alt="parallax-image" class="responsive-img" />
+        </div>
+    </div>
+
+    <!-- Area-->
+    <section id="teams" class="scrollspy">
+        <div class="row center-align">
+            <h2 class="center-align orange-text text-darken-4">Teams</h2>
+            <a class="btn initial orange darken-4 waves-effect waves-light pulse"><i
+                    class="material-icons white-text right ">blur_circular</i>Choose</a>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container scrollspy">
+        <div class="parallax">
+            <img src="media/para3.jpg" alt="parallax-image" class="responsive-img" />
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-2 scrollspy">
+        <div class="container">
+            <div id="aboutus" class="row">
+                <div class="col l6 s12">
+                    <h5 class="orange-text text-darken-4">About US</h5>
+                    <p>
+                        Footballer-Home shows the results of the most important football'
+                        competitions, standings, matches, teams...<br />
+                        All data is data from API Football-Data.org.
+                    </p>
+                </div>
+                <div id="contact" class="col l4 offset-l2 s12">
+                    <h5 class="orange-text text-darken-4">Connect</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#">Linked In</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align orange-text text-lighten-4">
+                &copy;2021 Maher Mirali
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="module" src="src/init/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
