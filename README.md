@@ -46,29 +46,31 @@ User can select any one of them and will get a small table with some chosen comp
 ## Should-Haves
 > these are not necessary but nice to have
 
-- [ ] The app needs to fetch data from more than one endpoint (from the same API).
-- [ ] The app needs to use filter data methods if provided by the API.
-- [ ] The app needs to render the HTTP and Network errors.
+### - The app needs to fetch data from more than one endpoint (from the same API)
 
 #### Competition' standing: 
-The app uses a different endpoint called "standing" to show teams' results tables depending on chosen competition button.<br>
+The app at first fetches data from an endpoint called competitions, then it uses a different endpoint called "standing" to show teams' results tables depending on chosen competition button (first endpoint).<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-stand%5B1%5D.gif" width="700" height="350"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-stand%5B1%5D.gif" width="700" height="350"/><br><br><br>
 
-----------------------------------------------------------------
+
+
+### - The app needs to use filter data methods if provided by the API.
 
 #### Competition matches:
-The app uses a filter method provided by the API to show the matches' results depending on the matchday's number and chosen competition. 
- Matchday's number list starts at 1 until a provided current matchday's.<br>
+The app uses a filter method provided by the API to show the matches' results depending on the matchday's number and chosen competition. Matchday's number list starts at 1 until a provided current matchday's.<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-match%5B1%5D.gif" width="700" height="350"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-match%5B1%5D.gif" width="700" height="350"/><br><br><br>
 
-----------------------------------------------------------------
+
+
+
+### -  The app needs to render the HTTP and Network errors.
 
 #### Error handeling:
 The app will show this "toast" wherever it catches an error. The app shows the error' message and refresh button, or it will show an alert confirmation to refresh after few seconds.<br>
 
-<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-error%5B1%5D.gif" width="700" height="350"/><br>
+<img alt="demo" src="https://github.com/mahermer88/UsingAPIs-Project-Footballer/blob/main/assets/App-error%5B1%5D.gif" width="700" height="350"/><br><br><br>
 
 ----------------------------------------------------------------
  
