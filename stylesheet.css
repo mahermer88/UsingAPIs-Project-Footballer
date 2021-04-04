@@ -1,22 +1,29 @@
-* {
+*,
+.row {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif !important;
   font-size: 18px;
-}
-
-.hide {
-  display: none;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   font-style: italic;
   font-size: 35px;
   font-weight: 900;
+  padding: 5px;
+}
+header a {
+  margin-right: 20px;
 }
 
 .slider {
@@ -26,28 +33,70 @@ header {
   text-shadow: 1px 2px 5px orange, 2px 3px 5px black, 3px 4px 15px black;
 }
 
+#competitions {
+  display: flex;
+  flex-direction: column;
+  background-image: url(media/table.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#competitions-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#competitions-buttons img {
+  border: 1px solid #b3e5fc;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+.selected {
+  box-shadow: 0 1px 5px 1px #a7b3fa, 0 6px 10px 1px #01579b;
+}
+#app-container {
+  display: flex;
+  flex-direction: column;
+}
+#controls-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#controls-buttons button {
+  font-family: cursive;
+  border: 1px solid rgb(206, 206, 206);
+  text-shadow: 1px 2px 5px orange, 2px 3px 5px black;
+  border-radius: 20px !important;
+}
+
+#tables-container {
+  height: 75vh;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .list {
   display: flex;
-  margin: 5px;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
-#standings-buttons {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 10px;
-  margin: 10px;
+#table-container {
+  height: 90%;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.logo {
+  width: 40px;
 }
 
-@media (max-width: 670px) {
-  header .brand-logo {
-    font-size: 18px;
-  }
-  p {
-    font-size: 15px;
-    text-align: justify;
-  }
-  #standings-buttons {
-    grid-template-columns: repeat(2, auto);
+/* laptop */
+@media (max-height: 750px) {
+  #tables-container {
+    height: 66vh;
   }
 }
