@@ -12,7 +12,6 @@ export function createTable(container, headCells, chosenClasses) {
       content: cell,
       class: `center-align black-text`,
     });
-    headCell.style.border = `2px solid black`;
   }
   return table;
 }

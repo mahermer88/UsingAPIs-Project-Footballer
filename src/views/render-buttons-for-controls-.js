@@ -14,6 +14,7 @@ export function renderControlsButton(competitionCode) {
     class: `row`,
   });
 
+  window.scrollBy(0, 600);
   const buttons = [`Info`, `Standing`, `Matches`, `Teams`];
   for (const button of buttons) {
     const btn = createAndAppend(`button`, controlsButtons, {

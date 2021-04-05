@@ -51,9 +51,11 @@ header a {
   border-collapse: collapse;
   cursor: pointer;
 }
+
 .selected {
   box-shadow: 0 1px 5px 1px #a7b3fa, 0 6px 10px 1px #01579b;
 }
+
 #app-container {
   display: flex;
   flex-direction: column;
@@ -89,6 +91,14 @@ header a {
   height: 90%;
   overflow-y: auto;
   scroll-behavior: smooth;
+}
+
+table tr th {
+  position: sticky;
+  top: 0%;
+  background: whitesmoke;
+  z-index: 5;
+  border: 1px solid grey;
 }
 .logo {
   width: 40px;
