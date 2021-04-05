@@ -12,3 +12,4 @@ export async function filterMatchesUpDay(code, day) {
     renderError(error);
   }
 }
+
