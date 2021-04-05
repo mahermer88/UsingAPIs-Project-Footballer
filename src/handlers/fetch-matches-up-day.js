@@ -6,7 +6,6 @@ export async function filterMatchesUpDay(code, day) {
   try {
     const url = `http://api.football-data.org/v2/competitions/${code}/matches/?matchday=${day}`;
     const data = await fetchData(url);
-     console.log(data);
     const matchesList = await data.matches;
     renderMatch(matchesList);
   } catch (error) {
