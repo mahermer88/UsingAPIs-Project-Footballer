@@ -1,6 +1,8 @@
 import { createAndAppend } from "../helpers/creat-and-append.js";
+import { resetElement } from "../helpers/reset-element.js";
 export function creatSlider() {
   const slider = document.getElementById(`slider`);
+  resetElement(slider);
   const slides = createAndAppend(`ul`, slider, {
     class: `slides`,
   });
