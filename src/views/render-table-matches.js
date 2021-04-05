@@ -1,9 +1,7 @@
 import { createTable } from "../helpers/creat-table.js";
 import { addTableRow } from "../helpers/creat-table.js";
 
-export async function renderMatch(data) {
-  const matchesList = data.matches;
-
+export async function renderMatch(matchesList) {
   const tableContainer = document.getElementById(`table-container`);
   const headCells = [`Home`, `Score`, `Away`];
   const chosenClasses = `white orange-text text-darken-4`;
