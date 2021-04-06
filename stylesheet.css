@@ -97,6 +97,7 @@ header a {
   height: 90%;
   overflow-y: auto;
   scroll-behavior: smooth;
+  overscroll-behavior: contain;
 }
 
 table tr th {
