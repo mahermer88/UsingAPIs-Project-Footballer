@@ -78,7 +78,6 @@ The app will show this "toast" wherever it catches an error. The app shows the e
 > would be really cool ... if there's time
 > 
 - [ ] The apps needs to show teams and squad.
-- [ ] The user can select and fetch data from many endpoints at same time.(multiple select)
 
  
 
