@@ -27,6 +27,7 @@ export function createCard(parent, logo, title, Stadium, Website) {
 
   const content2 = createAndAppend(`a`, cardContent, {
     href: Website,
+    target: "_blank",
     content: `Team - Website`,
   });
 
